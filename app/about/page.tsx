@@ -1,6 +1,19 @@
 import { MessageCircle, Users, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Zeflix | Free Streaming Platform",
+  description:
+    "Learn about Zeflix, the free streaming platform bringing global entertainment to your screen. No ads, no signup, just unlimited streaming of movies and TV series.",
+  openGraph: {
+    title: "About Zeflix | Free Streaming Platform",
+    description:
+      "Learn about Zeflix, the free streaming platform bringing global entertainment to your screen without ads or signup.",
+    url: "https://zeflix.com/about",
+  },
+}
 
 export default function AboutPage() {
   return (

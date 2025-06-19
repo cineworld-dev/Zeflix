@@ -1,0 +1,22 @@
+{
+  "name": "Zeflix - Stream the World",
+  "short_name": "Zeflix",
+  "description": "Stream the World. Anytime. Anywhere. Limitlessly. Watch movies and series from around the globe.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1db954",
+  "background_color": "#0b0c10",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}

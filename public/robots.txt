@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://zeflix.com/sitemap.xml
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow all content for search engines
+Allow: /
+Allow: /movies
+Allow: /series
+Allow: /search
+Allow: /genres
+Allow: /languages
+Allow: /about
+Allow: /watch/
